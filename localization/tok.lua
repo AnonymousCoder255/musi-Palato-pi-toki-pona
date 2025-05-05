@@ -31,7 +31,7 @@ return {
 				},
 			},
 			bl_final_bell={
-				name="Cerulean Bell",
+				name="ilo kalama",
 				text={
 					"Forces 1 card to always be selected",
 				},
@@ -43,15 +43,15 @@ return {
 				},
 			},
 			bl_final_leaf={
-				name="Verdant Leaf",
+				name="kasi wawa",
 				text={
-					"All cards debuffed until 1 Joker sold",
+					"lipu ala li ken pana. sina esun e jan Nasa la ni li pini",
 				},
 			},
 			bl_final_vessel={
-				name="Violet Vessel",
+				name="poki telo",
 				text={
-					"Very large blind",
+					"ni li wile e mani pi mute wawa",
 				},
 			},
 			bl_fish={
@@ -61,7 +61,7 @@ return {
 				},
 			},
 			bl_flint={
-				name="The Flint",
+				name="kiwen",
 				text={
 					"Base Chips and Mult are halved",
 				},
@@ -69,13 +69,13 @@ return {
 			bl_goad={
 				name="utala",
 				text={
-					"kala ale li ken ala pana",
+					"lipu kala ale li ken ala pana",
 				},
 			},
 			bl_head={
 				name="lawa",
 				text={
-					"soweli ale li ken ala pana",
+					"lipu soweli ale li ken ala pana",
 				},
 			},
 			bl_hook={
@@ -91,37 +91,37 @@ return {
 				},
 			},
 			bl_manacle={
-				name="The Manacle",
+				name="poki",
 				text={
 					"-1 Hand Size",
 				},
 			},
 			bl_mark={
-				name="The Mark",
+				name="sitelen",
 				text={
-					"All face cards are drawn face down",
+					"sina ken lukin e sinpin pi lipu jan/lawa/wawa",
 				},
 			},
 			bl_mouth={
 				name="uta",
 				text={
-					"Play only 1 hand type this round",
+					"sina ken pana kepeken nasin wan taso",
 				},
 			},
 			bl_needle={
-				name="The Needle",
+				name="ilo",
 				text={
-					"Play only 1 hand",
+					"o pana lon tenpo wan taso",
 				},
 			},
 			bl_ox={
-				name="The Ox",
+				name="mani soweli",
 				text={
-					"Playing a #1# sets money to $0",
+					"sina pana e lipu pi nanpa wan la mani sina li weka",
 				},
 			},
 			bl_pillar={
-				name="The Pillar",
+				name="palisa",
 				text={
 					"Cards played previously this Ante are debuffed",
 				},
@@ -133,15 +133,15 @@ return {
 				},
 			},
 			bl_psychic={
-				name="The Psychic",
+				name="sona",
 				text={
-					"Must play 5 cards",
+					"sina ken ala pana ala e lipu luka",
 				},
 			},
 			bl_serpent={
 				name="akesi",
 				text={
-					"After Play or Discard, always draw 3 cards",
+					"sina pana anu weka la, mani sina li weka",
 				},
 			},
 			bl_small={
@@ -164,7 +164,7 @@ return {
 			bl_water={
 				name="telo",
 				text={
-					"Start with 0 discards",
+					"sina ken ala weka e lipu",
 				},
 			},
 			bl_wheel={
@@ -176,7 +176,7 @@ return {
 			bl_window={
 				name="pipi",
 				text={
-					"pipi ale li ken ala pana",
+					"lipu pipi ale li ken ala pana",
 				},
 			},
 		},
@@ -266,7 +266,7 @@ return {
 				},
 			},
 			j_blueprint={
-				name="Blueprint",
+				name="jan Nasa pi wile sama",
 				text={
 					"Copies ability of {C:attention}Joker{} to the right",
 				},
@@ -305,7 +305,7 @@ return {
 				},
 			},
 			j_burnt={
-				name="Burnt Joker",
+				name="jan seli Nasa",
 				text={
 					"Upgrade the level of the first {C:attention}discarded poker hand each round",
 				},
@@ -577,7 +577,7 @@ return {
 			j_golden={
 				name="jan jasima Nasa",
 				text={
-					"sina kama jo e {C:money}mani #1#{} at end of round",
+					"sina kama jo e {C:money}mani #1#{} lon pini utala",
 				},
 			},
 			j_greedy_joker={
@@ -767,7 +767,7 @@ return {
 				},
 			},
 			j_misprint={
-				name="Misprint",
+				name="pakala",
 				text={
 					"",
 				},
@@ -1025,9 +1025,9 @@ return {
 				},
 			},
 			j_square={
-				name="Square Joker",
+				name="leko Nasa",
 				text={
-					"This Joker gains {C:chips}+#2#{} Chips if played hand has exactly {C:attention}4{} cards {C:inactive}(Currently {C:chips}#1#{C:inactive} Chips)",
+					"sina pana e lipu {C:attention}tu tu{} taso la, lipu ni li kama jo e Chips {C:chips}+#2#{} {C:inactive}(tenpo ni la, lipu ni li pana e Chips{C:chips}#1#{C:inactive})",
 				},
 			},
 			j_steel_joker={
@@ -1037,7 +1037,7 @@ return {
 				},
 			},
 			j_stencil={
-				name="Joker Stencil",
+				name="jan Nasa ala",
 				text={
 					"{X:red,C:white} X1 {} Mult for each empty {C:attention}Joker{} slot {s:0.8}Joker Stencil included {C:inactive}(Currently {X:red,C:white} X#1# {C:inactive})",
 				},
@@ -1088,7 +1088,7 @@ return {
 				},
 			},
 			j_ticket={
-				name="Golden Ticket",
+				name="lipu mani",
 				text={
 					"Played {C:attention}Gold{} cards earn {C:money}$#1#{} when scored",
 				},
@@ -1115,7 +1115,7 @@ return {
 				},
 			},
 			j_tribe={
-				name="The Tribe",
+				name="kulupu",
 				text={
 					"{X:mult,C:white} X#1# {} Mult if played hand contains a {C:attention}#2#",
 				},
